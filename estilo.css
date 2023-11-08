@@ -1,0 +1,906 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+header{
+    width: auto;
+    height: 100%;
+    margin-bottom: 0px;
+    background-color: rgba(238, 242, 230, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    height: 26px;
+    width: auto;
+    margin-left: 20px;
+}
+
+#logo{
+    height: 87px;
+    width: 99px;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+.carrito{
+    height: 43px;
+    width: 39px;
+    margin-right: 20px;
+}
+
+#fondo{
+    display: flex;
+    flex-direction: column;
+    background: white url(imagenes/fondo.png) no-repeat bottom;
+    height: 563px;
+    width: 375px;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30pt;
+    margin: 40px;
+    font-family: montserrat;
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20pt;
+    margin: 15px;
+    font-family: montserrat;
+}
+
+h3{
+    font-size: 24pt;
+    font-weight: bold;
+    margin: 11px;
+    color: rgba(34, 122, 105, 1);
+    font-family: montserrat;
+}
+
+.allado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.pasos{
+    background-color: rgba(235, 238, 236, 1);
+    border-radius: 24px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 162px;
+    height: 249px;
+}
+
+.iconospasos{
+    height: 103px;
+    width: 110px;
+    margin: 11px;
+    margin-left: 25px;
+}
+
+h4{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(61, 131, 97, 1);
+    margin: 11px;
+    font-family: montserrat;
+}
+
+.registrate{
+    text-align: center;
+    font-size: 10pt;
+    font-family: montserrat;
+}
+
+.texto{
+    text-align: center;
+    font-size: 8pt;
+    margin-bottom: 15px;
+    margin: 5px;
+    font-family: montserrat;
+}
+
+.fit{
+    background-color: rgba(166, 190, 176, 1);
+}
+
+.light{
+    background-color: rgba(175, 201, 185, 1);
+}
+
+.gourmet{
+    background-color: rgba(190, 211, 198, 1);
+}
+
+.kids{
+    background-color: rgba(215, 228, 220, 1); 
+}
+
+.imagenes{
+    width: 278px;
+    height: 278px;
+    border-radius: 48px;
+    margin: 20px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+}
+
+.viandas{
+    font-size: 24pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 5px;
+    margin-bottom: 0px;
+    font-family: montserrat;
+}
+
+#envioypago{
+    margin: 30px;
+    margin-right: 60px;
+}
+
+#envio{
+    margin: 40px;
+    font-family: montserrat;
+}
+#pago{
+    margin: 40px;
+    font-family: montserrat;
+}
+
+.iconoenvio{
+    width: 43px;
+    height: 31px;
+}
+
+p{
+    font-size: 12pt;
+    font-family: montserrat;
+}
+
+footer{
+    background-color:  rgba(238, 242, 230, 1);
+    border-top-left-radius: 36px;
+    border-top-right-radius: 36px;
+}
+
+#foot{
+    margin: 30px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+#footuno{
+    margin: 30px;
+    padding: 10px;
+}
+
+.iconoredes{
+    width: 60px;
+    height: 60px;
+}
+
+#redes{
+    background-color:  rgba(238, 242, 230, 1);
+    width: 375px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+.dos{
+    background-color:  rgba(238, 242, 230, 1);
+    border-top-left-radius: 36px;
+    border-top-right-radius: 36px;
+}
+
+#footdos{
+    margin: 30px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+#foottres{
+    margin: 30px;
+    padding: 10px;
+}
+
+#redesdos{
+    width: 375px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+.buscador{
+    color: black;
+    width: 252px;
+    height: 37px;
+    border-radius: 20px;
+    border-color: rgba(135, 174, 149, 1);
+    margin: 20px;
+    margin-left: 70px;
+    font-family: montserrat;
+    padding: 10px;
+}
+
+.titulo{
+    font-size: 25pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px;
+    font-family: montserrat;
+}
+
+.columna{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.globo{
+    background-color: rgba(166, 190, 176, 1);
+    border-radius: 21px;
+    margin: 5px;
+    margin-bottom: 20px;
+    position: relative;
+    height: 300px;
+}
+
+.comida{
+    width: 154px;
+    height: 154px;
+    border-radius: 20px;
+    margin: 11px;
+}
+
+.producto{
+    font-size: 14pt;
+    font-weight: 500;
+    text-align: center;
+    margin: 5px;
+    font-family: montserrat;
+}
+
+.carritoviandas{
+    width: 30px;
+    height: 31px;
+    display: flex;
+    margin: 15px;
+    position: absolute;
+    top: 170pt;
+    bottom: 30pt;
+}
+
+.precio{
+    font-size: 15pt;
+    font-weight: 500;
+    text-align: right;
+    margin: 5px;
+    margin-top: 10px;
+    font-family: montserrat;
+    position: absolute;
+    left: 80px;
+}
+
+.primeraparte{
+    margin: 0%;
+}
+
+.flechaizquierda{
+    width: 32px;
+    height: 32px;
+    margin: 0px;
+    position: relative;
+    top: 40px;
+    left: 11px;
+    z-index: 100;
+}
+
+.plato{
+    width: 375px;
+    height: 375px;
+    border-bottom-left-radius: 72px;
+    border-bottom-right-radius: 72px;
+    position: relative;
+    bottom: 40px;
+}
+
+.cuadrado{
+    background-color: rgba(249, 247, 247, 1);
+    border-radius: 10px;
+    width: 303px;
+    height: 153px;
+    position: relative;
+    bottom: 75px;
+    margin-left: 35px
+}
+
+.nombredelproducto{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+    font-family: montserrat;
+}
+
+.preciodelproducto{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(103, 102, 102, 1);
+    text-align: center;
+    padding: 5px;
+    font-family: montserrat;
+}
+
+.segundaparte{
+    margin: 20px;
+    margin-bottom: 10px;
+}
+
+.descripcion{
+    font-size: 10pt;
+    color: rgba(172, 172, 172, 1);
+    text-align: center;
+    font-family: montserrat;
+}
+
+.cantidad{
+   margin-top: 35px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   font-family: montserrat;
+}
+
+.proteinas{
+    background-color: rgba(85, 177, 133, 1);
+    width: 105px;
+    height: 105px;
+    border-radius: 53px;
+    padding: auto;
+}
+
+.numero{
+    color: white;
+    font-size: 15pt;
+    font-weight: 600;
+    text-align: center;
+    margin: 15px;
+    padding-top: 8px;
+    font-family: montserrat;
+}
+
+.categoria{
+    color: white;
+    font-size: 8pt;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: montserrat;
+}
+
+.terceraparte{
+    margin-top: 50px;
+}
+
+.ingrediente{
+    font-size: 20pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 15px;
+    font-family: montserrat;
+}
+
+.elimina{
+    font-size: 10pt;
+    color: rgba(160, 160, 160, 1);
+    margin-left: 15px;
+    font-family: montserrat;
+}
+
+.dosfilas{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.verde{
+    background-color: rgba(85, 177, 133, 1);
+    width: 100px;
+    height: 140px;
+    border-radius: 23px;
+}
+
+.verdura{
+    width: 70px;
+    height: 87px;
+    margin: 10px;
+    margin-left: 15px;
+}
+
+.nombreverdura{
+    font-size: 9pt;
+    text-align: center;
+    color: white;
+    font-family: montserrat;
+}
+
+.agregar{
+    margin: 20px;
+    border-color: rgba(85, 177, 133, 1);
+    display: flex;
+    justify-content: center;
+}
+
+.boton{
+    color: white;
+    font-size: 15pt;
+    text-transform: uppercase;
+    background-color: rgba(34, 122, 105, 1);
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 13px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: montserrat;
+    width: 350px;
+    border: 0cm;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#iconogoogle{
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    position: absolute;
+    left: 35px;
+}
+
+.botongoogle{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#iniciarsesion{
+    background-color:  rgba(238, 242, 230, 1);
+    border-radius: 20px;
+    margin: 10px;
+    margin-top: 30px;
+    padding: 15px;
+    width: 355px;
+    height: 470px;
+}
+
+h6{
+    font-family: montserrat;
+    font-size: 16pt;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.campoderelleno{
+    background-color:  rgba(238, 242, 230, 1);
+    border-radius: 20px;
+    border-color: rgba(85, 177, 133, 1);
+    border-width: 2pt;
+    width: 319px;
+    height: 20px;
+    font-size: 14pt;
+    color: black;
+    padding: 15px;
+    margin-bottom: 14px;
+}
+
+#recordarcontraseña{
+    background-color:  rgba(238, 242, 230, 1);
+    border-color: rgba(85, 177, 133, 1);
+    border: 2pt;
+    width: 20px;
+    height: 20px;
+}
+
+label{
+    font-family: montserrat;
+    font-size: 10pt;
+    color: black;
+    margin: 15px;
+}
+
+#contraseña{
+    font-size: 8pt;
+    font-family: montserrat;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+#olvidastetucontraseña{
+    color: blue;
+}
+
+.botondos{
+    color: white;
+    font-size: 15pt;
+    text-transform: uppercase;
+    background-color: rgba(34, 122, 105, 1);
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-family: montserrat;
+    width: 330px;
+    border: 0cm;
+    text-align: center;
+}
+
+.botontres{
+    color: white;
+    font-size: 16pt;
+    text-transform: uppercase;
+    background-color: rgba(34, 122, 105, 1);
+    border-radius: 20px;
+    padding: 10px;
+    border: 0ch;
+    width: 330px;
+    margin-bottom: 5px;
+
+}
+
+#registrate{
+    font-family: montserrat;
+    font-size: 12pt;
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.google{
+    background-color:  rgba(238, 242, 230, 1);
+    border-color: black;
+    width: 325px;
+    height: 42px;
+    text-transform: uppercase;
+    font-size: 10pt;
+    margin-bottom: 5px;
+}
+
+#crearcuenta{
+    background-color:  rgba(238, 242, 230, 1);
+    border-radius: 20px;
+    margin: 10px;
+    margin-top: 30px;
+    padding: 15px;
+    width: 355px;
+    height: 500px;
+}
+
+.camporellenochico{
+    background-color:  rgba(238, 242, 230, 1);
+    border-radius: 20px;
+    border-color: rgba(85, 177, 133, 1);
+    border-width: 2pt;
+    width: 158px;
+    height: 30px;
+    font-size: 14pt;
+    color: black;
+    padding: 15px;
+    margin-bottom: 14px;
+}
+
+.personalizatuvianda{
+    background-color: rgba(235, 238, 236, 1);
+    border-radius: 20px;
+    width: 350px;
+    height: 250px;
+    margin: 12px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
+.iconopersonalizatuvianda{
+    width: 100px;
+    height: 100px;
+    margin-left: 110px;
+    margin-bottom: 15px;
+}
+
+.titulopersonalizatuvianda{
+    font-family: montserrat;
+    font-size: 20pt;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.textopersonalizatuvianda{
+    font-family: montserrat;
+    font-size: 10pt;
+    text-align: center;
+}
+
+.bordeverde{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: solid 2pt;
+    border-color:  rgba(85, 177, 133, 1);
+    border-radius: 20px;
+    background-color: white;
+    width: 350px;
+    height: 176px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.imagenescarrito{
+    width: 154px;
+    height: 154px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.carritotexto{
+    font-family: montserrat;
+    font-size: 12pt;
+    margin: 10px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+.costo{
+    border-top: solid 2pt;
+    border-color:  rgba(85, 177, 133, 1);
+    margin-top: 30px;
+    display: flex;
+}
+
+.costopalabra{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.costoprecio{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 150px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+#total{
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.pasosunodostres{
+    display: flex;
+    flex-direction: row;
+}
+
+.unodostres{
+    font-family: montserrat;
+    font-size: 16pt;
+    text-align: center;
+    padding: 10px;
+    color:  rgba(238, 242, 230, 1);
+    background-color:  rgba(85, 177, 133, 1);
+    width: 44px;
+    height: 44px;
+    border-radius: 40px;
+    margin: 20px;
+}
+
+.titulonumero{
+    font-family: montserrat;
+    font-size: 16pt;
+    font-weight: 400;
+    margin-top: 26px;
+    text-transform: lowercase;
+}
+
+#pasoenvio{
+    display: flex;
+    flex-direction: column;
+}
+
+#codigopostal{
+    font-family: montserrat;
+    font-size: 10pt;
+    color: darkgray;
+    margin-left: 30px;
+}
+
+#tarjeta{
+    width: 265px;
+    height: 164px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+
+.encuestaprincipio{
+    display: flex;
+    flex-direction: row;
+    width: 375px;
+    margin-top: 15px;
+}
+
+.puntitos{
+    width: 20px;
+    height: 20px;
+    background-color:  rgba(85, 177, 133, 1);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+}
+
+.puntitosdos{
+    width: 20px;
+    height: 20px;
+    background-color:  rgba(133, 220, 178, 1);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+   margin-left: 5px;
+}
+
+#flechaderecha{
+    width: 32px;
+    height: 32px;
+    margin-left: 140px;
+}
+
+.encuestapregunta{
+    font-family: montserrat;
+    font-size: 24pt;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.opciones{
+    border-radius: 20px;
+    border: solid 2pt rgba(133, 220, 178, 1);
+    margin: 20px;
+    margin-top: 30px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.carne{
+    width: 100px;
+    height: 100px;
+}
+
+.categoriados{
+    font-family: montserrat;
+    font-size: 20pt;
+    text-align: right;
+    color: black;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+#perfiles{
+    width: 375px;
+    height: 208px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.perfilesnombres{
+    font-family: montserrat;
+    font-size: 20pt;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.nutricionistassectores{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.rellenoverde{
+    background-color:  rgba(238, 242, 230, 1);
+    padding: 15px;
+    font-size: 14pt;
+    font-weight: 600;
+    width: 190px;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+#fondomenu{
+    background-color:  rgba(238, 242, 230, 1);
+    height: 700xpx;
+}
+
+.primeracategoria{
+    border-top: solid 2pt rgba(133, 220, 178, 1);
+    margin: 15px;
+    padding-top: 15px;
+}
+
+.segundacategoria{
+    border-top: solid 2pt rgba(133, 220, 178, 1);
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    padding-top: 15px;
+}
+
+#identificacioncompra{
+    background-color: rgba(238, 242, 230, 1);
+    border-radius: 20px;
+    margin: 10px;
+    margin-top: 30px;
+    padding: 15px;
+}
+
+#enviocompra{
+    background-color: rgba(238, 242, 230, 1);
+    border-radius: 20px;
+    margin: 10px;
+    margin-top: 30px;
+    padding: 15px; 
+}
+
+#pagocompra{
+    background-color: rgba(238, 242, 230, 1);
+    border-radius: 20px;
+    margin: 10px;
+    margin-top: 30px;
+    padding: 15px; 
+}
+
+.tacho{
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 120px;
+}
